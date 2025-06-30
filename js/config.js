@@ -22,6 +22,11 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    liangzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/from/liangzi/at/xml',
+        name: '量子资源',
+        detail: '', 
+    },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
