@@ -22,6 +22,21 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    guangsu: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/at/xml',
+        name: '光速资源',
+        detail: '', 
+    },
+    bubugao: {
+        api: 'https://api.yparse.com/api/xml',
+        name: '步步高资源',
+        detail: '', 
+    },
+    shandian: {
+        api: 'https://sdzyapi.com/api.php/provide/vod/at/xml',
+        name: '闪电资源',
+        detail: '', 
+    },
     liangzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/from/liangzi/at/xml',
         name: '量子资源',
